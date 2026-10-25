@@ -72,7 +72,7 @@ const actionColorMap: Record<
 const securityEvents = [
   {
     event: "Failed Login Attempt",
-    user: "unknown@email.com",
+    user: "unknown.user",
     time: "2023-06-13 10:45",
     severity: "Medium",
   },

@@ -8,15 +8,15 @@ Its purpose is to improve operational efficiency and provide an exceptional user
 
 ## Getting Started
 
-For NextJS 14 a minimum of Node version `18.17.0` or higher is needed. The project is currently using verision `20.14.0`.
+A Node.js version of `18.17.0` or higher is required (Node `20.x` recommended).
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/example/pms-client.git
-cd pms-client
+git clone https://github.com/kushal99991/hotel-pms.git
+cd hotel-pms
 ```
 
 2. Install dependencies:

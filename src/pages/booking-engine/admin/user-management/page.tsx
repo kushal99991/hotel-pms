@@ -17,15 +17,15 @@ import AddUserModal from "./_components/AddUserModal";
 import AddRoleModal from "./_components/AddRoleModal";
 
 const mockUsers = [
-  { name: "John Doe", email: "john.doe[at]example.com", details: "User Detail 1" },
+  { name: "John Doe", email: "john.doe@example.com", details: "User Detail 1" },
   {
     name: "Jane Smith",
-    email: "jane.smith[at]example.com",
+    email: "jane.smith@example.com",
     details: "User Detail 2",
   },
   {
     name: "Alice Johnson",
-    email: "alice.johnson[at]example.com",
+    email: "alice.johnson@example.com",
     details: "User Detail 3",
   },
 ];

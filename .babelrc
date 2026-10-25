@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react",  // <--- this is needed to parse JSX
+    "@babel/preset-typescript" // if you use TS
+  ]
+}

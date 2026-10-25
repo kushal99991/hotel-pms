@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    /* Output & build info */
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    /* Language & target */
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+
+    /* Module resolution for Vite bundler */
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": false,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+
+    /* Base URL and path aliases */
+    "baseUrl": "./src",
+    "paths": {
+      "types/*": ["types/*"],
+      "utils/*": ["utils/*"],
+      "api/*": ["api/*"],
+      "config/*": ["config/*"],
+      "components/*": ["components/*"],
+      "store/*": ["store/*"],
+      "services/*": ["services/*"],
+      "pages/*": ["pages/*"],
+      "hooks/*": ["hooks/*"],
+      "routes/*": ["routes/*"],
+      "assets/*": ["assets/*"],
+      "styles/*": ["styles/*"],
+      "theme/*": ["theme/*"],
+      "contexts/*": ["contexts/*"],
+      "constants/*": ["constants/*"]
+    },
+
+    /* Type definitions */
+    "types": ["vite/client", "jest", "node"],
+
+    /* Strictness & safety */
+    "strict": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "erasableSyntaxOnly": false,
+    "noUncheckedSideEffectImports": false,
+    "strictFunctionTypes": false,
+    "noImplicitThis": false,
+    "strictBindCallApply": false
+  },
+  "setupFiles": ["<rootDir>/jest-setup.ts"],
+  "include": [
+    "src",
+    "jest-setup.ts",
+    "src/global.d.ts",
+    "__tests__",
+    "src/types/**/*.d.ts",
+    "src/types/authTypes.d.ts",
+    "vite-env.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}

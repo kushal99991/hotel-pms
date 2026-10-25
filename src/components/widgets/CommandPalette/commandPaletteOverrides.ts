@@ -1,0 +1,16 @@
+export const commandPaletteOverrides: Record<string, string> = {
+  "/booking-engine/sales/group":                                           "Sales Groups",
+  "/booking-engine/sales/group/create":                                    "Create Sales Group",
+  "/booking-engine/sales/rooming-list":                                    "Sales Group Rooming Lists",
+  "/booking-engine/night-audit/add":                                       "Run Night Audit",
+  "/booking-engine/accounting/accounts":                                   "Direct Billing Accounts",
+  "/booking-engine/accounting/create-account":                             "Create Direct Billing Account",
+  "/booking-engine/admin/role-management":                                 "Role Management",
+  "/booking-engine/admin/user-management/add":                             "Add User",
+  "/booking-engine/admin/role-management/add":                             "Add Role",
+  "/booking-engine/admin/financial-settings/tax":                          "Tax Settings",
+  "/booking-engine/admin/financial-settings/fee":                          "Fee Settings",
+  "/booking-engine/admin/financial-settings/preconfigured-charge":         "Preconfigured Charges",
+  "/booking-engine/admin/financial-settings/posting-codes":                "Posting Codes",
+  "/booking-engine/admin/financial-settings/posting-code-departments":     "Posting Code Departments",
+};
